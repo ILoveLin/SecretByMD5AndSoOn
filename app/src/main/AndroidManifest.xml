@@ -20,6 +20,7 @@
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".rsa.RsaTowActivity"></activity>
         <activity android:name=".aes.AesThreeActivity"></activity>
+        <activity android:name=".webservicev2.WebserviceV2Activity"></activity>
 <!--        <activity android:name=".aes.AesThreeActivity"></activity>-->
     </application>
 
