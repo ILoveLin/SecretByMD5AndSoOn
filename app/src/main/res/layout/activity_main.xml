@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_str"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="@color/teal_200"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:text="{name:jack,age:13}"
+            android:textSize="25dp" />
+
+
+        <ImageView
+            android:id="@+id/image_bg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/logo" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="rsa加密"
+        android:textColor="@color/purple_200"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/tv_03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="rsa解密"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/tv_image01"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="imageBase64"
+        android:textSize="12dp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_en"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="RSA加密"
+        android:textSize="25dp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_de"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="RSA解密"
+        android:textSize="25dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_base6401"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="Base64图片加密"
+        android:textSize="25dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_base6402"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="Base64图片解密"
+        android:textSize="25dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_webv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:paddingLeft="10dp"
+        android:text="WebServiceV2版本"
+        android:textSize="25dp" />
+
+
+</LinearLayout>
